@@ -78,3 +78,8 @@ Please run ```npm start``` again.
 [server.js]	ERROR	SequelizeConnectionError: Connection lost: The server closed the connection.
 [server.js]	ERROR	Unable to start application
 ```
+
+## Some problems I met along the way, these links might help!
+https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
+https://phoenixnap.com/kb/mysql-docker-container
+
