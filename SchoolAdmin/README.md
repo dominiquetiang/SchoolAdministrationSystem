@@ -83,6 +83,12 @@ Please run ```npm start``` again.
 ## Some problems I met along the way, these links might help!
 https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
 https://phoenixnap.com/kb/mysql-docker-container
+<br>
+Installing Docker software have to be with adminstrator mode
+<br>
+Use this command for initial set up of MySQL, where "-e MYSQL_ROOT_PASSWORD" will set the password and "-p" for the port
+docker run -p 3306:3306 --name=SchoolAdmin -e MYSQL_ROOT_PASSWORD=root -d mysql/mysql-server:latest
+<br>
 
 ## Assumption made
 Data that being post by api/register will always be in the format given by the assignment body
