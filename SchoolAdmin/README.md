@@ -83,3 +83,7 @@ Please run ```npm start``` again.
 https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
 https://phoenixnap.com/kb/mysql-docker-container
 
+## Assumption made
+Data that being post by api/register will always be in the format given by the assignment body
+
+
