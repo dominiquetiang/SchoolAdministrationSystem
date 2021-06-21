@@ -64,7 +64,8 @@ http://localhost:3000/api/healthcheck
 
 ### Database
 Migration script is place in javascript/database folder. <br>
-It will be ran the first time MySQL docker container is first initialised. <br><br>
+It will be ran the first time MySQL docker container is first initialised. <br>
+If it doesnt run, user can manually copy the script to generate the database and table <br>
 
 <br>
 
